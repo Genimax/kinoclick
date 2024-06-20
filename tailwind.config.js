@@ -8,11 +8,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "custom-image":
+          "url('https://www.funnyart.club/uploads/posts/2022-10/1666319881_6-www-funnyart-club-p-kinozal-kartinki-krasivo-7.jpg')",
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
